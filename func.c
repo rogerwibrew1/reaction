@@ -13,6 +13,5 @@ int func(double t, const double y[], double f[], void *params)
     f[1] = k1*cA - k2*cB*cC - k3*cB*cB;
     f[2] = k3*cB*cB;
         
-
     return GSL_SUCCESS;
 }
